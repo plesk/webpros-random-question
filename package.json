@@ -1,0 +1,13 @@
+{
+  "name": "random-question-generator",
+  "version": "1.0.0",
+  "description": "An icebreaker question generator",
+  "scripts": {
+    "run-dev": "http-server"
+  },
+  "author": "Webpros",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
