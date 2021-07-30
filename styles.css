@@ -1,0 +1,31 @@
+html {
+  color: #fff;
+  background: #6a0d61;
+  background: linear-gradient(to right, #6a0d61, #cd2643);
+  height: 100%;
+  margin: 0;
+}
+
+header,
+body {
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+#question-placeholder {
+  font-size: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
