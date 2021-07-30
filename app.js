@@ -1,4 +1,4 @@
-const questions = [
+var questions = [
   "Do you prefer working remotely or working in an office?",
   "Is there a spot in your house where you feel most productive?",
   "If you could have any upgrade to your WorkFromHome setup, what would it be?",
@@ -241,9 +241,9 @@ const questions = [
   "Would you rather live at the North Pole or in Africa?",
 ];
 (function () {
-  const max = questions.length;
-  const index = Math.floor(Math.random() * max);
-  const questionPlaceholder = document.getElementById("question-placeholder");
+  var max = questions.length;
+  var index = Math.floor(Math.random() * max);
+  var questionPlaceholder = document.getElementById("question-placeholder");
 
   questionPlaceholder.innerText = questions[index];
 })();
